@@ -1,12 +1,24 @@
 {
-  "name": "audio-magic",
+  "name": "positional-audio",
   "version": "0.0.1",
   "description": "Audio nodes packaged up for contructing spatial audio environments",
+  "keywords": [
+    "panning",
+    "web audio",
+    "audio",
+    "positional",
+    "audiocontext"
+  ],
   "scripts": {
-    "start": "npm run-script build; node bin/server",
-    "test-browser": "zuul --server 8000 test/*.js"
+    "test": "zuul --server 8000 test/*.js"
   },
   "author": "Janessa Det <jandet@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jandet/positional-audio.git"
+  },
+  "main": "./lib/index.js",
   "devDependencies": {
     "mocha": "~1.12.0",
     "zuul": "~0.1.0",
