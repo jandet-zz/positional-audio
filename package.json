@@ -1,0 +1,15 @@
+{
+  "name": "audio-magic",
+  "version": "0.0.1",
+  "description": "Audio nodes packaged up for contructing spatial audio environments",
+  "scripts": {
+    "start": "npm run-script build; node bin/server",
+    "test-browser": "zuul --server 8000 test/*.js"
+  },
+  "author": "Janessa Det <jandet@gmail.com>",
+  "devDependencies": {
+    "mocha": "~1.12.0",
+    "zuul": "~0.1.0",
+    "sinon": "~1.7.3"
+  }
+}
